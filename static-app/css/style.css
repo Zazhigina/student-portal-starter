@@ -1,0 +1,57 @@
+/* Сброс базовых стилей */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-primary: #2563eb;
+  --color-primary-dark: #1d4ed8;
+  --color-surface: #ffffff;
+  --color-border: #d9dee3;
+  --color-text-muted: #64748b;
+  --radius-base: 8px;
+  --spacing-unit: 8px;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  color: #1f2933;
+  background-color: #f5f7fa;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--color-primary);
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: calc(var(--spacing-unit) * 2) calc(var(--spacing-unit) * 3);
+  background-color: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.app-header__logo {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.app-main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: calc(var(--spacing-unit) * 4) calc(var(--spacing-unit) * 3);
+}
+
+.app-footer {
+  text-align: center;
+  padding: calc(var(--spacing-unit) * 3);
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+}

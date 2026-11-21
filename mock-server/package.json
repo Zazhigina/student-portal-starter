@@ -1,0 +1,16 @@
+{
+  "name": "team-project-mock-server",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Учебный сервер на Express: вход по логину и паролю, задачи, данные в db.json",
+  "engines": {
+    "node": ">=18.18"
+  },
+  "scripts": {
+    "start": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  }
+}

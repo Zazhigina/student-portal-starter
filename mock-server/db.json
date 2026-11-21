@@ -1,0 +1,11 @@
+{
+  "users": [
+    { "id": 1, "login": "demo", "password": "demo123", "name": "Демо Пользователь" }
+  ],
+  "tasks": [
+    { "id": 1, "title": "Подготовить отчёт по лабораторной", "description": "Собрать скриншоты и описать выводы", "status": "in-progress", "priority": "high", "dueDate": "2026-11-10", "userId": 1 },
+    { "id": 2, "title": "Согласовать дизайн-макет", "description": "Показать макеты ключевых экранов команде", "status": "done", "priority": "medium", "dueDate": "2026-10-30", "userId": 1 },
+    { "id": 3, "title": "Настроить общий репозиторий", "description": "Создать репозиторий, добавить участников", "status": "todo", "priority": "high", "dueDate": "2026-11-03", "userId": 1 },
+    { "id": 4, "title": "Описать модель данных в блюпринте", "description": "", "status": "todo", "priority": "low", "dueDate": "2026-11-17", "userId": 1 }
+  ]
+}
